@@ -20,7 +20,7 @@ function setTab2(name, show, n) {
 
 
 $('.slider').unslider({
-	/* arrows : true, */
+	arrows : true,
 	fluid : true,
 	dots : true
 });
