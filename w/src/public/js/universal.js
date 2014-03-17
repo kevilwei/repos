@@ -1,6 +1,6 @@
 function setTab(name, show, n) {
 	for (i = 1; i <= n; i++) {
-//		alert("name:"+name+";show:"+show+";n:"+n);
+		// alert("name:"+name+";show:"+show+";n:"+n);
 		var tab = document.getElementById(name + "s" + i);
 		var cntx = document.getElementById(name + i);
 		tab.className = ((i == show) ? "hover" : "");
@@ -10,7 +10,7 @@ function setTab(name, show, n) {
 
 function setTab2(name, show, n) {
 	for (i = 1; i <= n; i++) {
-//		alert("name:"+name+";show:"+show+";n:"+n);
+		// alert("name:"+name+";show:"+show+";n:"+n);
 		var tab = document.getElementById(name + "s" + i);
 		var cntx = document.getElementById(name + i);
 		tab.className = ((i == show) ? "p_tab_act" : "p_tab");
@@ -18,12 +18,20 @@ function setTab2(name, show, n) {
 	}
 }
 
-
 $('.slider').unslider({
 	arrows : true,
 	fluid : true,
 	dots : true
 });
+$('.products').unslider({
+	arrows : true,
+	fluid : true
+//	,
+//	dots : true
+}
+
+)
+
 // Find any element starting with a # in the URL
 // And listen to any click events it fires
 $('a[href^="#"]').click(function() {
@@ -31,7 +39,7 @@ $('a[href^="#"]').click(function() {
 	var target = $($(this).attr('href'));
 	// And get its position
 	var pos = target.offset(); // fallback to scrolling to top || {left: 0,
-								// top: 0};
+	// top: 0};
 	// jQuery will return false if there's no element
 	// and your code will throw errors if it tries to do .offset().left;
 	if (pos) {

@@ -23,7 +23,7 @@ body {
 
 .cap {
 	height: 25px;
-	background-color:#428BCA;
+	background-color: #428BCA;
 }
 
 .header_body {
@@ -169,6 +169,7 @@ body {
 	margin: 0;
 	height: 100%;
 	clear: both;
+/* 	box-shadow: 0 1px 1px rgba(0, 0, 0, .25); */
 }
 
 .sector_clear {
@@ -413,7 +414,7 @@ ul li:hover {
 
 .slider .arrows {
 	position: absolute;
-	width:100%;
+	width: 100%;
 	bottom: 80px;
 	right: 20px;
 	color: #fff;
@@ -423,11 +424,12 @@ ul li:hover {
 
 .prev {
 	padding-left: 40px;
-	float:left;
+	float: left;
 }
+
 .next {
 	/* padding-right: -10px; */
-	float:right;
+	float: right;
 }
 /* Slider begins*/
 /* Bulk ends*/
@@ -645,24 +647,25 @@ ul li:hover {
 	font-size: 14px;
 }
 
-
-
 /*=============== marquee ===============*/
-.marquee{
-	width:900px;
-	height:170px;
-	overflow:hidden;
-	padding:10px;
+.simg {
+	width: 120px;
+	height: auto;
+	border-radius: 15px;
+	margin: 5px 6px 5px 6px;
 }
 
-.ma{
-	height:151px;
-	width:120px;
-	margin:10px 10px 10px 10px;
+.products {
+	margin: auto;
+	text-align: center;
+	color: rgba(255, 255, 255, .6);
+	text-shadow: 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .3);
+	background: white;
+	/* box-shadow: 0 1px 1px rgba(0, 0, 0, .25); */
 }
 
-
-
-
-
-
+/*===================news=================================  */
+.news_title{
+	text-align:center;
+	width:100%;
+}
