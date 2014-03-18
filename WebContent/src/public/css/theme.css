@@ -23,7 +23,7 @@ body {
 
 .cap {
 	height: 25px;
-	background-color: #428BCA;
+	background-color: #24AEED;
 }
 
 .header_body {
@@ -53,7 +53,7 @@ body {
 }
 
 .company em {
-	color: #428BCA;
+	color: #24AEED;
 }
 
 .nav {
@@ -70,7 +70,7 @@ body {
 .nav_item {
 	float: left;
 	height: 24px;
-	margin: auto;
+	/* margin: auto; */
 	font-size: 18px;
 	margin: 0 1px 0 1px;
 	text-align: center;
@@ -129,6 +129,15 @@ body {
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar.png) right no-repeat;
+	width: 687px;
+}
+
+.title_bar_full_width {
+	padding-left: 15px;
+	height: 25px;
+	color: #428BCA;
+	background: url(../../img/content_title_bar.png) right no-repeat;
+	width: 885px;
 }
 
 .title_bar a {
@@ -148,7 +157,8 @@ body {
 	padding-left: 15px;
 	height: 25px;
 	color: #428BCA;
-	background: url(../../img/content_title_bar_short_short.png) right no-repeat;
+	background: url(../../img/content_title_bar_short_short.png) right
+		no-repeat;
 }
 
 .contents {
@@ -169,7 +179,7 @@ body {
 	margin: 0;
 	height: 100%;
 	clear: both;
-/* 	box-shadow: 0 1px 1px rgba(0, 0, 0, .25); */
+	/* 	box-shadow: 0 1px 1px rgba(0, 0, 0, .25); */
 }
 
 .sector_clear {
@@ -217,16 +227,29 @@ body {
 
 .lists a,img_frame a {
 	font-size: 14px;
-	padding: 3px 5px 3px 10px;
-	color: #34495E;
+	padding: 3px 5px 3px;
+	color: black;
 }
 
-.lists ul li a {
-	font-size: 14px;
-	padding: 3px 5px 3px 10px;
-	color: #34495E;
+.lists li {
+	padding: 8px;
+	color:black;
+	font-size:13px;
+	margin: -1px 10px 0px 15px;
+}
+.lists_detail li {
+	padding: 8px;
+	color:black;
+	font-size:13px;
+	margin: -1px 10px 0px 15px;
+	border-top: 1px solid #24AEED;
+	border-bottom: 1px solid #24AEED;
 }
 
+.lists_detail li:hover{
+	font-weight:bold;
+	
+} 
 .lists a:hover,img_frame a:hover {
 	color: white;
 	font-weight: bold;
@@ -255,6 +278,15 @@ body {
 	clear: righ;
 }
 
+.new_intr {
+	margin-top: 6px;
+	width: 35%;
+	float: right;
+	position: relative;
+	height: 100%;
+	clear: left;
+}
+
 ul {
 	margin-top: 5px;
 	list-style-type: none;
@@ -276,10 +308,10 @@ a {
 	border-radius: 5px;
 	font-size: 14px;
 	overflow: hidden;
-	font-size: 14px;
 }
 
-.intr ul li:hover,.intr ul li a:hover,.cat ul li:hover,.cat ul li a:hover {
+.intr ul li:hover,.intr ul li a:hover,.cat ul li:hover,.cat ul li a:hover
+	{
 	font-weight: bold;
 	color: white;
 	background-color: #24AEED;
@@ -289,12 +321,35 @@ a {
 	padding: 3px 5px 3px 5px;
 }
 
+.intr_detail_full_width products ul li:hover {
+	/* 
+	font-weight: bold;
+	border-radius: 5px;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25);  */
+	
+}
 /*****************************************************  */
 .intr_detail {
-	width: 78%;
+	width: 77%;
 	float: left;
 	clear: right;
-	min-height: 400px;
+	min-height: 220px;
+}
+
+.intr_detail_full_width {
+	width: 100%;
+	float: left;
+	clear: right;
+	min-height: 220px;
+}
+
+.new_intr_detail {
+	width: 64%;
+	float: right;
+	clear: left;
+	min-height: 220px;
 }
 
 .intr_detail_qr {
@@ -441,7 +496,8 @@ ul li:hover {
 	margin-top: -10px;
 	margin: auto;
 	float: auto;
-	background-color: #428BCA;
+	background-color: #24AEED;
+	border-radius: 3px;
 }
 
 .footer p {
@@ -511,16 +567,43 @@ ul li:hover {
 }
 
 .p_photo {
-	height: 310px;
+	height: 350px;
 	width: 37%;
 	margin: 5px;
 	float: left;
 	clear: right;
 }
 
-.p_photo img {
-	height: 308px;
+.p_image img {
+	height: 310px;
+	width: 245px;
+}
+
+.p_image {
+	height: 310px;
 	width: auto;
+	margin: auto;
+}
+
+.p_download {
+	margin-top: 5px; width : 240px;
+	padding: 15px 8px;
+	background-color: #24AEED;
+	border-radius: 5px;
+	width: 240px;
+}
+
+.p_pdf_link {
+	margin-top: 5px;
+	margin-left: 15px;
+}
+
+.p_icon {
+	margin-top: -4px;
+	width: 24px;
+	height: 24px;
+	float: left;
+	clear: right;
 }
 
 .p_price_order {
@@ -596,7 +679,6 @@ ul li:hover {
 	height: 23px;
 	margin-bottom: 0;
 	background-color: #F2F2F2;
-	/* border:1px solid red; */
 }
 
 .p_tab_detail {
@@ -677,7 +759,7 @@ ul li:hover {
 }
 
 /*===================news=================================  */
-.news_title{
-	text-align:center;
-	width:100%;
+.news_title {
+	text-align: center;
+	width: 100%;
 }

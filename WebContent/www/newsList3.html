@@ -5,10 +5,15 @@
 <meta name="description" content="keywords" />
 <title>公司新闻</title>
 <!-- icon -->
-<link rel="shortcut icon" href="../../src/img/favicon.ico">
+<link rel="shortcut icon" href="../src/img/favicon.ico">
 
 <!-- And the Theme -->
-<link rel="stylesheet" href="../../src/public/css/theme.css">
+<link rel="stylesheet" href="../src/public/css/theme.css">
+
+<!-- Slider  -->
+
+<!-- Loading unslider -->
+<link href="../src/private/slider/css/slider.css" rel="stylesheet">
 
 </head>
 <body>
@@ -27,23 +32,23 @@
 				</div>
 				<div class="nav">
 					<div class="nav_item">
-						<a href="../../index.html">首页</a>
+						<a href="../index.html">首页</a>
 					</div>
 					<div class="nav_seperator"></div>
 					<div class="nav_item">
-						<a href="../companyInfo.html">公司介绍</a>
+						<a href="companyInfo.html">公司介绍</a>
 					</div>
 					<div class="nav_seperator"></div>
 					<div class="nav_item">
-						<a href="../newsList.html">新闻中心</a>
+						<a href="#">新闻中心</a>
 					</div>
 					<div class="nav_seperator"></div>
 					<div class="nav_item">
-						<a href="../offerList.html">产品展示</a>
+						<a href="offerList.html">产品展示</a>
 					</div>
 					<div class="nav_seperator"></div>
 					<div class="nav_item">
-						<a href="../contactUs.html">联系我们</a>
+						<a href="contactUs.html">联系我们</a>
 					</div>
 				</div>
 
@@ -57,11 +62,11 @@
 				<!--轮播图片  begins-->
 				<div class="slider">
 					<ul style="margin-top: -1px">
-						<li style="background-image: url('../../src/img/slider_1.jpg');"></li>
-						<li style="background-image: url('../../src/img/slider_2.jpg');"></li>
-						<li style="background-image: url('../../src/img/slider_3.jpg');"></li>
-						<li style="background-image: url('../../src/img/slider_4.jpg');"></li>
-						<li style="background-image: url('../../src/img/slider_5.jpg');"></li>
+						<li style="background-image: url('../src/img/slider_1.jpg');"></li>
+						<li style="background-image: url('../src/img/slider_2.jpg');"></li>
+						<li style="background-image: url('../src/img/slider_3.jpg');"></li>
+						<li style="background-image: url('../src/img/slider_4.jpg');"></li>
+						<li style="background-image: url('../src/img/slider_5.jpg');"></li>
 					</ul>
 				</div>
 
@@ -71,15 +76,17 @@
 
 		<!--============================bulk begins===============================-->
 		<div class="bulk">
-		<br/>
+			<br>
 			<div class="sector">
 				<div class="intr">
 					<div class="title_bar_short">文章中心</div>
 					<ul class="lists">
-						<li><a href="../newsList.html">全部分类</a></li>
-						<li><a href="../newsList2.html">公司动态</a></li>
-						<li><a href="../newsList3.html">产品动态</a></li>
+						<li><a href="newsList.html">全部分类</a></li>
+						<li><a href="newsList2.html">公司动态</a></li>
+						<li><a href="newsList3.html">产品动态</a></li>
 					</ul>
+					<br>
+
 					<!-- 
 					<div class="title_bar_short">联系我们</div>
 					<div class="contents">
@@ -96,45 +103,43 @@
 						</p>
 						<p>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：201103</p>
 					</div>
- -->
+					-->
+
 
 				</div>
 
 				<div class="intr_detail">
-					<div class="title_bar">
-						<a href="../newsList.html">&lt;&lt;返回新闻中心</a>
-					</div>
+					<div class="title_bar">产品动态</div>
 					<div id="contents">
-						<div class="news_title">
-							<h3>MEISSNER放假通知</h3>
-							<h5>2013年12月18日</h5>
-							<p style="text-align: left;">
-							<img alt="维护中..."
-								src="../../src/img/news/news_04.jpg">
-							</p>
-
-						</div>
+						<ul class="lists_detail">
+						<!-- 
+							<li><a href="news/news_01.html">MEISSNER囊式过滤器订购指南
+									2014-02-13</a></li>
+							<li><a href="news/news_02.html">Meissner扩大厂房通知
+									2014-02-13</a></li>
+							<li><a href="news/news_03.html">MEISSNER放假通知 2013-12-18</a></li>
+							<li><a href="news/news_04.html">Happy Holidays
+									2013-12-17</a></li> -->
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
 		<!--============================bulk ends===============================-->
-		<div class="sector_clear"></div>
+
 
 		<!--============================footer begins===============================-->
 		<div class="footer">
+			<br>
 			<p>
-				©2013-2014 上海哲园国际贸易有限公司 版权所有 |&nbsp;<a href="http://www.miitbeian.gov.cn/">沪ICP备13044876号-3</a>
+				©2013-2014 上海哲园国际贸易有限公司 版权所有 |&nbsp;<a
+					href="http://www.miitbeian.gov.cn/">沪ICP备13044876号-3</a>
 			</p>
 
-
-			<p>
-				技术支持：<a href="http://jz.1688.com/">企业官网</a>
-			</p>
 			<p id="cop" style="height: 50px">
 				<a
 					href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2013121317475498"><img
-					alt="" src="../../src/img/cop_badge.gif" /></a>
+					alt="" src="../src/img/cop_badge.gif" /></a>
 			</p>
 
 
@@ -142,9 +147,11 @@
 		<!--Footer ends  -->
 	</div>
 	<!--Page ends  -->
-	<script type="text/javascript" src="../../src/public/js/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" src="../../src/private/slider/js/slider.min.js"></script>
-	<script type="text/javascript" src="../../src/public/js/universal.js"></script>
+	<script type="text/javascript"
+		src="../src/public/js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript"
+		src="../src/private/slider/js/slider.min.js"></script>
+	<script type="text/javascript" src="../src/public/js/universal.js"></script>
 </body>
 </html>
 
