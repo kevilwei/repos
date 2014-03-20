@@ -132,6 +132,10 @@ body {
 	width: 687px;
 }
 
+.title_bar a{
+	font-size: 13px;
+}
+
 .title_bar_full_width {
 	padding-left: 15px;
 	height: 25px;
@@ -167,6 +171,10 @@ body {
 	font-size: 13px;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+.contents a{
+	font-size: 13px;
 }
 
 .contents company {
@@ -567,7 +575,7 @@ ul li:hover {
 }
 
 .p_photo {
-	height: 350px;
+	height: 360px;
 	width: 37%;
 	margin: 5px;
 	float: left;
@@ -586,11 +594,11 @@ ul li:hover {
 }
 
 .p_download {
-	margin-top: 5px; width : 240px;
+	margin-top: 5px; 
 	padding: 15px 8px;
-	background-color: #24AEED;
+	background-color: #D1EAFE;
 	border-radius: 5px;
-	width: 240px;
+	width: 230px;
 }
 
 .p_pdf_link {
@@ -635,6 +643,7 @@ ul li:hover {
 
 .h3_center {
 	text-align: center;
+	font-size: 18px;
 }
 
 .p_price_order p {
