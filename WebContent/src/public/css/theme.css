@@ -27,12 +27,21 @@ body {
 }
 
 .cap_say_hi {
+	
+}
+
+.cap_message {
+	
+}
+
 .header_body {
+	height: 75px;
 }
 
 .logo {
-	height: 65px;
+	height: 70px;
 	background: url(../../img/header_logo.jpg) left no-repeat;
+	padding-top: 7px;
 }
 
 .district {
@@ -45,11 +54,14 @@ body {
 }
 
 .company {
-	width: 400px;
+	width: 620px;
+	height: 30px;
 	float: right;
 	font-weight: bold;
-	padding-top: 16px;
-	font-size: 1.7em;
+	padding-top: 35px;
+	padding-bottom: 3px;
+	font-size: 1.4em;
+	text-align: right;
 }
 
 .company em {
@@ -58,13 +70,14 @@ body {
 
 .nav {
 	width: 900px;
-	margin-top: 20px;
-	pargin-right: 24px;
+	margin-top: 3px;
+	padding-bottom: 2px; pargin-right : 24px;
 	height: 26px;
 	font-size: 1.2em;
 	/* padding-left: 30px; */
 	position: relative;
 	background: url(../../img/nav_bg.png) left no-repeat;
+	pargin-right: 24px;
 }
 
 .nav_item {
@@ -132,7 +145,7 @@ body {
 	width: 687px;
 }
 
-.title_bar a{
+.title_bar a {
 	font-size: 13px;
 }
 
@@ -173,7 +186,7 @@ body {
 	padding-right: 15px;
 }
 
-.contents a{
+.contents a {
 	font-size: 13px;
 }
 
@@ -241,23 +254,24 @@ body {
 
 .lists li {
 	padding: 8px;
-	color:black;
-	font-size:13px;
+	color: black;
+	font-size: 13px;
 	margin: -1px 10px 0px 15px;
 }
+
 .lists_detail li {
 	padding: 8px;
-	color:black;
-	font-size:13px;
+	color: black;
+	font-size: 13px;
 	margin: -1px 10px 0px 15px;
 	border-top: 1px solid #24AEED;
 	border-bottom: 1px solid #24AEED;
 }
 
-.lists_detail li:hover{
-	font-weight:bold;
-	
-} 
+.lists_detail li:hover {
+	font-weight: bold;
+}
+
 .lists a:hover,img_frame a:hover {
 	color: white;
 	font-weight: bold;
@@ -594,7 +608,7 @@ ul li:hover {
 }
 
 .p_download {
-	margin-top: 5px; 
+	margin-top: 5px;
 	padding: 15px 8px;
 	background-color: #D1EAFE;
 	border-radius: 5px;
