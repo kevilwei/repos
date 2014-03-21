@@ -44,16 +44,19 @@ body {
 	background: url(../../img/header_logo.jpg) left top no-repeat;
 	padding-top: 7px;
 }
-/* 
+
 .district {
+	/* 
 	width: 200px;
 	padding-top: 11px;
 	float: right;
 	font-size: 2.1em;
 	font-weight: bold;
 	text-align: left;
+	 */
+	 display:none;
 }
- */
+
 .company {
 	width: 270px;
 	float: left;
@@ -101,7 +104,6 @@ body {
 }
 
 .nav_item:hover {
-	font-weight: bold;
 	background-color:white;
 }
 
@@ -110,6 +112,7 @@ body {
 	color: #0099FF;
 	padding-top: 3px;
 	margin: auto;
+	font-weight:bold;
 }
 
 .nav_item a:hover {
@@ -145,7 +148,7 @@ body {
 }
 
 .title_bar a {
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .title_bar_full_width {
@@ -180,13 +183,13 @@ body {
 .contents {
 	clear: both;
 	height: 100%;
-	font-size: 13px;
+	font-size: 11px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .contents a {
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .contents company {
@@ -246,7 +249,7 @@ body {
 }
 
 .lists a,img_frame a {
-	font-size: 14px;
+	font-size: 12px;
 	padding: 3px 5px 3px;
 	color: black;
 }
@@ -254,14 +257,14 @@ body {
 .lists li {
 	padding: 8px;
 	color: black;
-	font-size: 13px;
+	font-size: 11px;
 	margin: -1px 10px 0px 15px;
 }
 
 .lists_detail li {
 	padding: 8px;
 	color: black;
-	font-size: 13px;
+	font-size: 11px;
 	margin: -1px 10px 0px 15px;
 	border-top: 1px solid #24AEED;
 	border-bottom: 1px solid #24AEED;
@@ -327,7 +330,7 @@ a {
 	margin-top: 3px;
 	margin-bottom: 3px;
 	border-radius: 5px;
-	font-size: 14px;
+	font-size: 12px;
 	overflow: hidden;
 }
 
@@ -386,7 +389,7 @@ a {
 }
 
 .list_full {
-	font-size: 14px;
+	font-size: 12px;
 	height: 100%;
 	color: #313131;
 	padding: 0 15px 0 15px;
@@ -397,7 +400,7 @@ sector a {
 	padding-left: 10px;
 	color: #313131;
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 ul li:hover {
@@ -409,7 +412,7 @@ ul li:hover {
 	min-height: 320px;
 	float: left;
 	padding: 0 0 10px 0;
-	font-size: 14px;
+	font-size: 12px;
 	/* background-image: url(../../img/background_short.png);
 	background-repeat: repeat-y;
 	 */
@@ -637,7 +640,7 @@ ul li:hover {
 }
 
 .p_price_order table {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .table_title {
@@ -661,7 +664,7 @@ ul li:hover {
 
 .p_price_order p {
 	margin: 5px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .p_order_area {
@@ -744,7 +747,7 @@ ul li:hover {
 
 .p_table {
 	width: 100%;
-	font-size: 14px;
+	font-size: 12px;
 	border-bottom: 2px solid gray;
 	margin-bottom: 15px;
 	margin-top: 25px;
@@ -760,7 +763,7 @@ ul li:hover {
 
 .p_description {
 	width: 100%;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 /*=============== marquee ===============*/
