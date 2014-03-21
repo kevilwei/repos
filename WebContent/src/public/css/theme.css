@@ -7,10 +7,11 @@
 body {
 	/* background-color: #E9E8E9; */
 	margin: 0;
+	font-family:Yahi;
 }
 
 .page {
-	width: 900px;
+	width: 800px;
 	/* min-height: 600px; */
 	margin: auto;
 }
@@ -73,7 +74,7 @@ body {
 }
 
 .nav {
-	width: 898px;
+	width: 100%;
 	padding-bottom: 2px;
 	pargin-right: 24px;
 	height: 26px;
@@ -144,7 +145,7 @@ body {
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar.png) right no-repeat;
-	width: 687px;
+	width:610px;
 }
 
 .title_bar a {
@@ -156,7 +157,7 @@ body {
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar.png) right no-repeat;
-	width: 885px;
+	width: 786px;
 }
 
 .title_bar a {
@@ -215,7 +216,7 @@ body {
 
 .cat {
 	width: 17%;
-	min-height: 300px;
+	min-height: 260px;
 	float: left;
 	position: relative; /* 
 	background-image: url(../../img/background_short.png);
@@ -309,6 +310,12 @@ body {
 	position: relative;
 	height: 100%;
 	clear: left;
+	padding-right:0;
+}
+.new_intr img {
+	width:280px;
+	padding-right:0px;
+	height:auto;
 }
 
 ul {
@@ -380,14 +387,14 @@ a {
 	width: 60%;
 	float: left;
 }
-
+/* 
 .intr_qr {
 	width: 18%;
 	float: left;
 	width: 158px;
 	height: 180px;
 }
-
+ */
 .list_full {
 	font-size: 12px;
 	height: 100%;
@@ -453,8 +460,6 @@ ul li:hover {
 .slider ul li {
 	display: block;
 	float: left;
-	/* width: 33%; */
-	/* width: 100%; */
 	min-height: 200px;
 	-o-background-size: 100% 100%;
 	-ms-background-size: 100% 100%;
@@ -582,7 +587,7 @@ ul li:hover {
 
 .p_introduction_photo img {
 	height: auto;
-	width: 700px;
+	width: 620px;
 }
 
 .p_header {
@@ -591,7 +596,7 @@ ul li:hover {
 }
 
 .p_photo {
-	height: 360px;
+	height: 282px;
 	width: 37%;
 	margin: 5px;
 	float: left;
@@ -599,14 +604,14 @@ ul li:hover {
 }
 
 .p_image img {
-	height: 310px;
-	width: 245px;
+	height: 241px;
+	width: 190px;
 }
 
 .p_image {
-	height: 310px;
+	height: 241px;
 	width: auto;
-	margin: auto;
+	margin :auto;
 }
 
 .p_download {
@@ -614,7 +619,7 @@ ul li:hover {
 	padding: 15px 8px;
 	background-color: #D1EAFE;
 	border-radius: 5px;
-	width: 230px;
+	width: 190px;
 }
 
 .p_pdf_link {
