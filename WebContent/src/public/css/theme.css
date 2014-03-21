@@ -18,7 +18,7 @@ body {
 /* =========================================================================== */
 /* Header begins*/
 .header {
-	height: 140px;
+	height: 145px;
 }
 
 .cap {
@@ -35,15 +35,16 @@ body {
 }
 
 .header_body {
-	height: 75px;
+	height: 120px;
 }
 
 .logo {
-	height: 70px;
-	background: url(../../img/header_logo.jpg) left no-repeat;
+	height: 85px;
+	width:100%;
+	background: url(../../img/header_logo.jpg) left top no-repeat;
 	padding-top: 7px;
 }
-
+/* 
 .district {
 	width: 200px;
 	padding-top: 11px;
@@ -52,16 +53,16 @@ body {
 	font-weight: bold;
 	text-align: left;
 }
-
+ */
 .company {
-	width: 620px;
-	height: 30px;
-	float: right;
+	width: 270px;
+	float: left;
 	font-weight: bold;
-	padding-top: 35px;
-	padding-bottom: 3px;
+	margin:48px 0 0 0;
 	font-size: 1.4em;
 	text-align: right;
+	color:#5290FC;
+	
 }
 
 .company em {
@@ -69,31 +70,30 @@ body {
 }
 
 .nav {
-	width: 900px;
-	margin-top: 3px;
-	padding-bottom: 2px; pargin-right : 24px;
+	width: 898px;
+	padding-bottom: 2px;
+	pargin-right: 24px;
 	height: 26px;
 	font-size: 1.2em;
-	/* padding-left: 30px; */
 	position: relative;
-	background: url(../../img/nav_bg.png) left no-repeat;
+	background: url(../../img/nav_bg2.png) left repeat-x;
 	pargin-right: 24px;
 }
 
 .nav_item {
 	float: left;
 	height: 24px;
-	/* margin: auto; */
-	font-size: 18px;
-	margin: 0 1px 0 1px;
+	font-size: 16px;
+	margin: 2px 1px 0 1px;
 	text-align: center;
 	width: 120px;
 	float: left;
+	color:#0099FF;
 }
 
 .nav_seperator {
 	float: left;
-	margin: 0;
+	margin-top: 2px;
 	padding-right: -2;
 	height: 24px;
 	width: 5px;
@@ -101,20 +101,19 @@ body {
 }
 
 .nav_item:hover {
-	/* background-color: #24AEED; */
-	color: white;
 	font-weight: bold;
+	background-color:white;
 }
 
 .nav_item a {
 	text-decoration: none;
-	color: #428BCA;
+	color: #0099FF;
 	padding-top: 3px;
 	margin: auto;
 }
 
 .nav_item a:hover {
-	color: white;
+	color: #0099FF;
 	font-weight: bold;
 }
 
