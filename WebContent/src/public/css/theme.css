@@ -794,8 +794,44 @@ ul li:hover {
 	/* box-shadow: 0 1px 1px rgba(0, 0, 0, .25); */
 }
 
-/*===================news=================================  */
+/*==========================news==========================  */
 .news_title {
 	text-align: center;
 	width: 100%;
 }
+
+/*==========================companyInfo==========================  */
+.about_title{
+	color:#2899FC;
+	font-size:12px;
+	
+}
+
+.about_content{
+	font-size:12px;
+	
+}
+.about_content_main{
+	width:608px;
+	font-size:12px;
+}
+
+.about_photo_left{
+	width:193px;
+	height:201px;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.about_photo_right{
+	width:193px;
+	height:301px;
+	float:right;
+	margin-right:10px;
+	margin-bottom:10px;
+	
+}
+
+
+
+
