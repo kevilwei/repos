@@ -62,10 +62,10 @@ body {
 	width: 270px;
 	float: left;
 	font-weight: bold;
-	margin:48px 0 0 0;
-	font-size: 1.4em;
-	text-align: right;
-	color:#5290FC;
+	margin:51px 0 0 0;
+	font-size: 1.3em;
+	text-align: center;
+	color:#4791FF;
 	
 }
 
@@ -87,7 +87,7 @@ body {
 .nav_item {
 	float: left;
 	height: 24px;
-	font-size: 16px;
+	font-size: 15px;
 	margin: 2px 1px 0 1px;
 	text-align: center;
 	width: 120px;
@@ -142,6 +142,7 @@ body {
 
 .title_bar {
 	padding-left: 15px;
+	font-size: 15px;
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar.png) right no-repeat;
@@ -154,6 +155,7 @@ body {
 
 .title_bar_full_width {
 	padding-left: 15px;
+	font-size: 15px;
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar.png) right no-repeat;
@@ -168,6 +170,7 @@ body {
 
 .title_bar_short {
 	padding-left: 15px;
+	font-size: 15px;
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar_short.png) right no-repeat;
@@ -175,6 +178,7 @@ body {
 
 .title_bar_short_short {
 	padding-left: 15px;
+	font-size: 15px;
 	height: 25px;
 	color: #428BCA;
 	background: url(../../img/content_title_bar_short_short.png) right
@@ -184,13 +188,13 @@ body {
 .contents {
 	clear: both;
 	height: 100%;
-	font-size: 11px;
+	font-size: 12px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 .contents a {
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .contents company {
@@ -265,7 +269,7 @@ body {
 .lists_detail li {
 	padding: 8px;
 	color: black;
-	font-size: 11px;
+	font-size: 12px;
 	margin: -1px 10px 0px 15px;
 	border-top: 1px solid #24AEED;
 	border-bottom: 1px solid #24AEED;
@@ -532,7 +536,7 @@ ul li:hover {
 .footer p {
 	width: 100%;
 	height: 16px;
-	font-size: 11px;
+	font-size: 12px;
 	text-align: center;
 	margin: 0px;
 	padding-top:8px;
@@ -540,7 +544,7 @@ ul li:hover {
 }
 
 .footer a {
-	font-size: 11px;
+	font-size: 12px;
 	font-weight: normal;
 }
 
@@ -562,7 +566,7 @@ ul li:hover {
 
 /*================================================== images ==================================================*/
 .img_frame img {
-	width: 142px;
+	width: 162px;
 	height: auto;
 	margin-left: -8px; /* about the contents */
 }
@@ -572,7 +576,7 @@ ul li:hover {
 }
 
 .img_frame {
-	width: 148px;
+	width: 168px;
 	height: 240px;
 	overflow: hidden;
 	float: left;
