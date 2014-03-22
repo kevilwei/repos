@@ -73,34 +73,28 @@ body {
 }
 
 .nav {
-	width: 100%;
-	padding-bottom: 2px;
-	pargin-right: 24px;
+	width: 100%; 
 	height: 26px;
 	font-size: 1.2em;
 	position: relative;
 	background: url(../../img/nav_bg2.png) left repeat-x;
-	pargin-right: 24px;
 }
 
 .nav_item {
 	float: left;
-	height: 24px;
+	height: 26px;
 	font-size: 15px;
-	margin: 2px 1px 0 1px;
 	text-align: center;
 	width: 120px;
 	float: left;
 	color: #0099FF;
-	vertical-align: center;
+	margin-top:2px;	
 }
 
 .nav_seperator {
 	float: left;
-	margin-top: 2px;
-	padding-right: -2;
-	height: 24px;
-	width: 5px;
+	height: 26px;
+	width: 2px;
 	background: url(../../img/nav_seperator.png) left no-repeat;
 }
 
@@ -111,19 +105,15 @@ body {
 .nav_item a {
 	text-decoration: none;
 	color: #0099FF;
-	padding-top: 3px;
-	margin: auto;
 	font-weight: bold;
+	/* vertical-align:bottom; */
 }
 
 .nav_item a:hover {
 	color: #0099FF;
 	font-weight: bold;
 }
-
-#even_devide {
-	
-}
+ 
 /* Header ends*/
 /* =========================================================================== */
 
