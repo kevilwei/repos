@@ -42,8 +42,8 @@ body {
 .logo {
 	height: 85px;
 	width: 100%;
-	background: url(../../img/header_logo.jpg) left top no-repeat;
-	padding-top: 7px;
+	background: url(../../img/header_logo.png) left top no-repeat;
+	margin-top:5px;
 }
 
 .district {
@@ -62,10 +62,10 @@ body {
 	width: 270px;
 	float: left;
 	font-weight: bold;
-	margin: 51px 0 0 0;
+	margin: 48px 0 0 0;
 	font-size: 1.3em;
 	text-align: center;
-	color: #4791FF;
+	/*color: #4791FF;*/
 }
 
 .company em {
@@ -145,7 +145,8 @@ body {
 }
 
 .a_black {
-	color: black;
+/*	color: black;*/
+	color: #428BCA;
 }
 
 .title_bar {
@@ -250,7 +251,13 @@ body {
 	border-radius: 3px;
 }
 
-.lists a,img_frame a {
+.lists a{
+	font-size: 12px;
+	padding: 3px 5px 3px;
+	color: #428BCA;
+}
+
+.img_frame a {
 	font-size: 12px;
 	padding: 3px 5px 3px;
 	color: black;
@@ -337,6 +344,7 @@ a {
 	border-radius: 5px;
 	font-size: 12px;
 	overflow: hidden;
+	color: #428BCA;
 }
 
 .intr ul li:hover,.intr ul li a:hover,.cat ul li:hover,.cat ul li a:hover
@@ -821,8 +829,8 @@ ul li:hover {
 }
 
 .about_photo_right {
-	width: 193px;
-	height: 301px;
+	width: 250px;
+	height: 360px;
 	float: right;
 	margin-right: 10px;
 	margin-bottom: 10px;
