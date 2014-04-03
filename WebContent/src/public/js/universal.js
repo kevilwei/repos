@@ -9,27 +9,27 @@ $(function() {
 	}).slideshow();
 	$(".slidetabs").data("slideshow").play();
 });
-//
-//function setTab(name, show, n) {
-//	for (i = 1; i <= n; i++) {
-//		// alert("name:"+name+";show:"+show+";n:"+n);
-//		var tab = document.getElementById(name + "s" + i);
-//		var cntx = document.getElementById(name + i);
-//		tab.className = ((i == show) ? "hover" : "");
-//		cntx.style.display = ((i == show) ? "block" : "none");
-//	}
-//}
-//
-//function setTab2(name, show, n) {
-//	for (i = 1; i <= n; i++) {
-//		// alert("name:"+name+";show:"+show+";n:"+n);
-//		var tab = document.getElementById(name + "s" + i);
-//		var cntx = document.getElementById(name + i);
-//		tab.className = ((i == show) ? "p_tab_act" : "p_tab");
-//		cntx.style.display = ((i == show) ? "block" : "none");
-//	}
-//}
-//
+
+function setTab(name, show, n) {
+	for (i = 1; i <= n; i++) {
+		// alert("name:"+name+";show:"+show+";n:"+n);
+		var tab = document.getElementById(name + "s" + i);
+		var cntx = document.getElementById(name + i);
+		tab.className = ((i == show) ? "hover" : "");
+		cntx.style.display = ((i == show) ? "block" : "none");
+	}
+}
+
+function setTab2(name, show, n) {
+	for (i = 1; i <= n; i++) {
+		// alert("name:"+name+";show:"+show+";n:"+n);
+		var tab = document.getElementById(name + "s" + i);
+		var cntx = document.getElementById(name + i);
+		tab.className = ((i == show) ? "p_tab_act" : "p_tab");
+		cntx.style.display = ((i == show) ? "block" : "none");
+	}
+}
+
 //$('.slider').unslider({
 //	arrows : true,
 //	fluid : true,
