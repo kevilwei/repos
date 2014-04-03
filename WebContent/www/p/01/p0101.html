@@ -11,14 +11,11 @@
 
 <!-- icon -->
 <link rel="shortcut icon" href="../../../src/img/favicon.ico">
-
 <!-- And the Theme -->
 <link rel="stylesheet" href="../../../src/public/css/theme.css">
+<!-- Slider -->
+<link rel="stylesheet" href="../../../src/private/slider/css/slider.css">
 
-<!-- Slider  -->
-
-<!-- Loading unslider -->
-<link href="../../../src/private/slider/css/slider.css" rel="stylesheet">
 
 </head>
 <body>
@@ -61,30 +58,74 @@
 		<div class="bulk_slider">
 			<div class="sector">
 
-				<!--轮播图片  begins-->
-				<div class="slider">
-					<ul style="margin-top: -1px">
-						<li style="background-image: url('../../../src/img/slider_2.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_3.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_4.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_5.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_6.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_7.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_8.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_9.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_10.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_11.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_12.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_13.jpg');"></li>
-						<li style="background-image: url('../../../src/img/slider_14.jpg');"></li>
-					</ul>
+				<!--slider  begins-->
+				<!-- "previous slide" button -->
+				<a class="backward">prev</a>
+
+				<!-- container for the slides -->
+				<div class="images">
+					<div>
+						<img src="../../../src/img/slider_1.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_2.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_3.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_4.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_5.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_6.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_7.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_8.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_9.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_10.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_11.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_12.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_13.jpg" alt="Building..." />
+					</div>
+					<div>
+						<img src="../../../src/img/slider_14.jpg" alt="Building..." />
+					</div>
 				</div>
+
+				<!-- "next slide" button -->
+				<a class="forward">next</a>
+
+				<!-- the tabs -->
+				<div class="slidetabs">
+					<a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a>
+					<a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a>
+					<a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a>
+					<a href="#"></a> <a href="#"></a>
+				</div>
+
+				<!--slider  ends-->
 
 
 			</div>
 		</div>
 
-		<!--============================slider ends===============================-->
+		<!--============================bulk begins===============================-->
 
 		<div class="bulk">
 			<br />
@@ -102,16 +143,6 @@
 						<li><a href="../../offerList_08.html" class="a_black">过滤器完整性测试仪</a></li>
 					</ul>
 					<div class="sector_clear"></div>
-					<!-- 
-					<div class="title_bar_short">联系我们</div>
-					<div class="contents" style="padding-left: .3em; font-size: 13px">
-						<h4>上海哲园国际贸易有限公司</h4>
-						联&nbsp;系&nbsp;人：吴益之 先生 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(业务经理)<br />给我留言<br />电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话:
-						&nbsp;86 21 60530788 <br /> 移动电话: 18616126003<br />地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：上海市
-						闵行区<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;吴中路1065<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;永腾大厦702室<br />
-						邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编：201103
-					</div>
- -->
 				</div>
 
 				<div class="intr_detail">
@@ -200,8 +231,6 @@
 					href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2013121317475498"><img
 					alt="" src="../../../src/img/cop_badge.gif" /></a>
 			</p>
-
-
 		</div>
 		<!--Footer ends  -->
 	</div>
@@ -209,7 +238,7 @@
 	<script type="text/javascript"
 		src="../../../src/public/js/jquery-1.10.2.min.js"></script>
 	<script type="text/javascript"
-		src="../../../src/private/slider/js/slider.min.js"></script>
+		src="../../../src/public/js/jquery.tools.min.js"></script>
 	<script type="text/javascript"
 		src="../../../src/public/js/universal.js"></script>
 </body>
